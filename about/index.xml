@@ -1,15 +1,14 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>About me on The Blog of Gregory Vitz</title>
-    <link>https://gmvitz.github.io/about/</link>
-    <description>Recent content in About me on The Blog of Gregory Vitz</description>
+    <title>About me on A Blog for Gregory Vitz</title>
+    <link>https://example.org/about/</link>
+    <description>Recent content in About me on A Blog for Gregory Vitz</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <copyright>&amp;copy;2017 Gregory Vitz</copyright>
     <lastBuildDate>Sat, 05 Nov 2016 21:05:33 +0530</lastBuildDate>
     
-	<atom:link href="https://gmvitz.github.io/about/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://example.org/about/index.xml" rel="self" type="application/rss+xml" />
     
     
   </channel>
