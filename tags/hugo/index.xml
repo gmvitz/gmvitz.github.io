@@ -1,22 +1,22 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Hugo on A Blog for Gregory Vitz</title>
-    <link>https://example.org/tags/hugo/</link>
-    <description>Recent content in Hugo on A Blog for Gregory Vitz</description>
+    <title>Hugo on Gregory Vitz&#39;s Blog</title>
+    <link>http://gmvitz.github.io/tags/hugo/</link>
+    <description>Recent content in Hugo on Gregory Vitz&#39;s Blog</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language>
+    <copyright>Gregory Vitz</copyright>
     <lastBuildDate>Wed, 02 Apr 2014 00:00:00 +0000</lastBuildDate>
     
-	<atom:link href="https://example.org/tags/hugo/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="http://gmvitz.github.io/tags/hugo/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Getting Started with Hugo</title>
-      <link>https://example.org/2014/04/getting-started-with-hugo/</link>
+      <link>http://gmvitz.github.io/post/hugoisforlovers/</link>
       <pubDate>Wed, 02 Apr 2014 00:00:00 +0000</pubDate>
       
-      <guid>https://example.org/2014/04/getting-started-with-hugo/</guid>
+      <guid>http://gmvitz.github.io/post/hugoisforlovers/</guid>
       <description>Step 1. Install Hugo Goto hugo releases and download the appropriate version for your os and architecture.
 Save it somewhere specific as we will be using it in the next step.
 More complete instructions are available at installing hugo

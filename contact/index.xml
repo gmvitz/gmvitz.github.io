@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Get in touch on A Blog for Gregory Vitz</title>
-    <link>https://example.org/contact/</link>
-    <description>Recent content in Get in touch on A Blog for Gregory Vitz</description>
+    <title>Get in touch on Gregory Vitz&#39;s Blog</title>
+    <link>http://gmvitz.github.io/contact/</link>
+    <description>Recent content in Get in touch on Gregory Vitz&#39;s Blog</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language>
+    <copyright>Gregory Vitz</copyright>
     <lastBuildDate>Sun, 06 Nov 2016 13:00:25 +0530</lastBuildDate>
     
-	<atom:link href="https://example.org/contact/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="http://gmvitz.github.io/contact/index.xml" rel="self" type="application/rss+xml" />
     
     
   </channel>

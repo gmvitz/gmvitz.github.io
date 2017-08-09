@@ -1,128 +1,127 @@
 <!DOCTYPE html>
-<html lang="en-us">
-<head><meta charset="utf-8">
-<meta http-equiv="X-UA-Compatible" content="IE=edge">
-<title>Hello R Markdown</title>
-<meta name="description" content="This is my first website">
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<meta name="robots" content="all,follow">
-<meta name="googlebot" content="index,follow,snippet,archive">
-<link rel="stylesheet" href="https://gmvitz.github.io/css/bootstrap.min.css">
-<link rel="stylesheet" href="//fonts.googleapis.com/css?family=Roboto:400,300,700,400italic">
-<link rel="stylesheet" href="https://gmvitz.github.io/css/font-awesome.min.css">
-<link rel="stylesheet" href="https://gmvitz.github.io/css/owl.carousel.css">
-<link rel="stylesheet" href="https://gmvitz.github.io/css/owl.theme.css">
+<html lang='en'>
 
+<head>
+  <meta charset='utf-8'>
+<meta name='viewport' content='width=device-width, initial-scale=1'>
+<meta name='description' content='R MarkdownThis is an R Markdown document. Markdown is a simple formatting syntax for authoring HTML, PDF, and MS Word documents. For more details on using R Markdown see http://rmarkdown.rstudio.com.
+You can embed an R code chunk like this:
+summary(cars)## speed dist ## Min. : 4.0 Min. : 2.00 ## 1st Qu.:12.0 1st Qu.: 26.00 ## Median :15.0 Median : 36.00 ## Mean :15.4 Mean : 42.98 ## 3rd Qu.'>
 
-  <link href="https://gmvitz.github.io/css/style.default.css" rel="stylesheet" id="theme-stylesheet">
+<meta property='og:title' content='Hello R Markdown . Minimo'>
+<meta property='og:description' content='R MarkdownThis is an R Markdown document. Markdown is a simple formatting syntax for authoring HTML, PDF, and MS Word documents. For more details on using R Markdown see http://rmarkdown.rstudio.com.
+You can embed an R code chunk like this:
+summary(cars)## speed dist ## Min. : 4.0 Min. : 2.00 ## 1st Qu.:12.0 1st Qu.: 26.00 ## Median :15.0 Median : 36.00 ## Mean :15.4 Mean : 42.98 ## 3rd Qu.'>
+<meta property='og:url' content='http://gmvitz.github.io/post/2015-07-23-r-rmarkdown/'>
+<meta property='og:site_name' content='Gregory Vitz&#39;s Blog'>
+<meta property='og:type' content='article'><meta property='article:author' content='https://facebook.com/MunifTanjim'><meta property='article:section' content='Post'><meta property='article:tag' content='R Markdown'><meta property='article:tag' content='plot'><meta property='article:tag' content='regression'><meta property='article:published_time' content='2015-07-23T21:13:14-05:00'/><meta property='article:modified_time' content='2015-07-23T21:13:14-05:00'/>
 
- 
+<meta name="generator" content="Hugo 0.25.1" />
 
-  
-    <!--[if lt IE 9]>
-        <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
-        <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
-    <![endif]-->
-  
+  <title>Hello R Markdown . Minimo</title>
+  <link rel='canonical' href='http://gmvitz.github.io/post/2015-07-23-r-rmarkdown/'>
+  <link href='' rel='alternate' type='application/rss+xml' title='Gregory Vitz&#39;s Blog' />
+  <link rel='icon' href='/favicon.ico'>
+<link rel='stylesheet' href='https://fonts.googleapis.com/css?family=Ubuntu:400,400i,700&subset=latin'>
+<link rel='stylesheet' href='/css/main.d02777fd.css'>
 
+  <link rel='stylesheet' href='/css/custom.css'>
 
-<link href="https://gmvitz.github.io/css/custom.css" rel="stylesheet">
-<link rel="shortcut icon" href="https://gmvitz.github.io/img/favicon.png">
 
 
 </head>
-<body>
-  <div id="all">
-      <div class="container-fluid">
-          <div class="row row-offcanvas row-offcanvas-left">
-              <div id="sidebar" class="col-xs-6 col-sm-4 col-md-3 sidebar-offcanvas">
-  <div class="sidebar-content">
-    <h1 class="sidebar-heading"><a href="/">The Blog of Gregory Vitz</a></h1>
+
+
+<body class='page'>
+  <div class='site'>
+    <header id='header' class='header-container'>
+      <div class='site-header'>
+        <nav id='navmenu' aria-label='Main Menu'>
+  <ul class='main-menu'>
     
-      <p class="sidebar-p">I am a a recent applied economics graduate with an interest in Data Science.</p>
+    <li>
+      <a href='https://github.com/MunifTanjim/minimo'>Repo</a>
+    </li>
     
-    <ul class="sidebar-menu">
-      
-      
-        <li><a href="https://gmvitz.github.io/">Home</a></li>
-      
-        <li><a href="https://gmvitz.github.io/posts/">Posts</a></li>
-      
-        <li><a href="https://gmvitz.github.io/about/">About</a></li>
-      
-        <li><a href="https://gmvitz.github.io/contact/">Get in touch</a></li>
-      
-    </ul>
-    <p class="social">
-  
-  <a href="full%20page%20or%20profile%20url%20in%20facebook" data-animate-hover="pulse" class="external facebook">
-    <i class="fa fa-facebook"></i>
-  </a>
-  
-  
-  <a href="full%20profile%20url%20in%20googleplus" data-animate-hover="pulse" class="external gplus">
-    <i class="fa fa-google-plus"></i>
-  </a>
-  
-  
-  <a href="full%20profile%20url%20in%20twitter" data-animate-hover="pulse" class="external twitter">
-    <i class="fa fa-twitter"></i>
-  </a>
-  
-  
-  <a href="full%20profile%20url%20in%20instagram" title="" class="external instagram">
-    <i class="fa fa-instagram"></i>
-  </a>
-  
-  
-  <a href="mailto:email@example.com" data-animate-hover="pulse" class="email">
-    <i class="fa fa-envelope"></i>
-  </a>
-  
-  
-  <a href="full%20profile%20url%20in%20linkedin" data-animate-hover="pulse">
-    <i class="fa fa-linkedin"></i>
-  </a>
-  
-  
-  <a href="full%20profile%20url%20in%20stackoverflow" data-animate-hover="pulse">
-    <i class="fa fa-stack-overflow"></i>
-  </a>
-  
-  
-  <a href="full%20profile%20url%20in%20github" data-animate-hover="pulse">
-    <i class="fa fa-github"></i>
-  </a>
-  
-</p>
+    <li>
+      <a href='/post/goisforlovers/'>(Hu)go Template Primer</a>
+    </li>
+    
+    <li>
+      <a href='/post/hugoisforlovers/'>Getting Started with Hugo</a>
+    </li>
+    
+    <li>
+      <a href=''>tutorials</a>
+    </li>
+    
+  </ul>
+</nav>
+
+        <div class='site-info'>
+          
+          <p class='site-title title'>Gregory Vitz&#39;s Blog</p>
+          
+          <p class='site-description'>Minimalist theme for Hugo</p>
+        </div>
+      </div>
+    </header>
 
 
-    <div class="copyright">
-      <p class="credit">
-        
-          &copy;2017 Gregory Vitz
-        
-        | Template by <a href="https://bootstrapious.com/free-templates" class="external">Bootstrapious.com</a>
-
-&amp; ported to Hugo by <a href="https://github.com/kishaningithub">Kishan B</a>
-
-      </p>
-    </div>
+<main class='main'>
+  <article lang='en' class='entry'>
+    <header class='entry-header'>
+  <div class='entry-info'>
+    <h1 class='entry-title title'>Hello R Markdown</h1>
+    
   </div>
+  
+<div class='meta'>
+  <span class='posted-on'>
+    <svg class='icon' viewbox='0 0 24 24' stroke-linecap='round' stroke-linejoin='round' stroke-width='2' aria-hidden='true'>
+  
+  <rect x="3" y="4" width="18" height="18" rx="2" ry="2"/>
+  <line x1="16" y1="2" x2="16" y2="6"/>
+  <line x1="8" y1="2" x2="8" y2="6"/>
+  <line x1="3" y1="10" x2="21" y2="10"/>
+  
+</svg>
+
+    <span class='screen-reader'>Posted on </span>
+    <time class='date' datetime='2015-07-23T21:13:14-05:00'>2015, Jul 23</time>
+  </span>
+  
+  <span class='byline'>
+    <svg class='icon' viewbox='0 0 24 24' stroke-linecap='round' stroke-linejoin='round' stroke-width='2' aria-hidden='true'>
+  
+  <path d="M21,21V20c0-2.76-4-5-9-5s-9,2.24-9,5v1"/>
+  <path d="M16,6.37A4,4,0,1,1,12.63,3,4,4,0,0,1,16,6.37Z"/>
+  
+</svg>
+
+    <span class='screen-reader'> by </span>
+    Minimo
+  </span>
+  
+  
+  <span class='reading-time'>
+    <svg class='icon' viewbox='0 0 24 24' stroke-linecap='round' stroke-linejoin='round' stroke-width='2' aria-hidden='true'>
+  
+  <circle cx="12" cy="12" r="10"/>
+  <polyline points="12 6 12 12 15 15"/> 
+  
+</svg>
+
+    One min read
+  </span>
+  
 </div>
 
-              
-<div class="col-xs-12 col-sm-8 col-md-9 content-column white-background">
-  <div class="small-navbar visible-xs">
-  <button type="button" data-toggle="offcanvas" class="btn btn-ghost pull-left"> <i class="fa fa-align-left"> </i>Menu</button>
-  <h1 class="small-navbar-heading"><a href="/">The Blog of Gregory Vitz</a></h1>
-</div>
 
-  <div class="row">
-    <div class="col-lg-8">
-      <div class="content-column-content">
-         <h1>Hello R Markdown</h1>
-         <div id="r-markdown" class="section level1">
+</header>
+
+    <div class='entry-content'>
+  <div id="r-markdown" class="section level1">
 <h1>R Markdown</h1>
 <p>This is an R Markdown document. Markdown is a simple formatting syntax for authoring HTML, PDF, and MS Word documents. For more details on using R Markdown see <a href="http://rmarkdown.rstudio.com" class="uri">http://rmarkdown.rstudio.com</a>.</p>
 <p>You can embed an R code chunk like this:</p>
@@ -162,24 +161,167 @@ Figure 1: A fancy pie chart.
 </div>
 </div>
 
-         
-      </div>
-    </div>
-  </div>
 </div>
 
-          </div>
+    
+<footer class='entry-footer'>
+  
+    
+      
+      
+
+<div class='categories'>
+  <span class='category-icon'>
+    <svg class='icon' viewbox='0 0 24 24' stroke-linecap='round' stroke-linejoin='round' stroke-width='2' aria-hidden='true'>
+  
+  <path d="M22,19a2,2,0,0,1-2,2H4a2,2,0,0,1-2-2V5A2,2,0,0,1,4,3H9l2,3h9a2,2,0,0,1,2,2Z"/>
+  
+</svg>
+
+  </span>
+  <span class='screen-reader'>Categories: </span><a class='category' href='/categories/r'>R</a></div>
+
+    
+  
+    
+      
+      
+
+<div class='tags'>
+  <span class='tag-icon'>
+    <svg class='icon' viewbox='0 0 24 24' stroke-linecap='round' stroke-linejoin='round' stroke-width='2' aria-hidden='true'>
+  
+  <path d="M20.59,13.41l-7.17,7.17a2,2,0,0,1-2.83,0L2,12V2H12l8.59,8.59A2,2,0,0,1,20.59,13.41Z"/>
+  <line x1="7" y1="7" x2="7" y2="7"/>
+  
+</svg>
+
+  </span>
+  <span class='screen-reader'>Tags: </span><a class='tag' href='/tags/r-markdown'>R Markdown</a>, <a class='tag' href='/tags/plot'>plot</a>, <a class='tag' href='/tags/regression'>regression</a></div>
+
+    
+  
+</footer>
+
+
+  </article>
+
+  
+    
+<nav class='entry-nav'>
+  <div class='entry-nav-links'><div class='prev-entry'>
+      <a href='http://gmvitz.github.io/post/2015-01-01-lorem-ipsum/'>
+        <span aria-hidden='true'><svg class='icon' viewbox='0 0 24 24' stroke-linecap='round' stroke-linejoin='round' stroke-width='2' aria-hidden='true'>
+  
+  <line x1="20" y1="12" x2="4" y2="12"/>
+  <polyline points="10 18 4 12 10 6"/>
+  
+</svg>
+ Previous</span>
+        <span class='screen-reader'>Previous post: </span>Lorem Ipsum</a>
+    </div><div class='next-entry'>
+      <a href='http://gmvitz.github.io/post/2016-12-30-hello-markdown/'>
+        <span class='screen-reader'>Next post: </span>A Plain Markdown Post<span aria-hidden='true'>Next <svg class='icon' viewbox='0 0 24 24' stroke-linecap='round' stroke-linejoin='round' stroke-width='2' aria-hidden='true'>
+  
+  <line x1="4" y1="12" x2="20" y2="12"/>
+  <polyline points="14 6 20 12 14 18"/>
+  
+</svg>
+</span>
+      </a>
+    </div></div>
+</nav>
+
+
+  
+
+  
+    <div class='comments-container'>
+  
+</div>
+
+  
+</main>
+
+    <footer id='footer' class='footer-container'>
+      <div class='footer'>
+        <div class='social'>
+  <nav aria-label='Social Menu'>
+    <ul class='social-menu'><li>
+        <a href='https://codepen.io/MunifTanjim' target='_blank' rel='noopener'>
+          <span class='screen-reader'>Open Codepen account in new tab</span>
+          <svg class='icon' viewbox='0 0 24 24' stroke-linecap='round' stroke-linejoin='round' stroke-width='2' aria-hidden='true'>
+  
+  <polygon points="12 2 22 8.5 22 15.5 12 22 2 15.5 2 8.5 12 2"/>
+  <line x1="12" y1="22" x2="12" y2="15.5"/>
+  <polyline points="22 8.5 12 15.5 2 8.5"/>
+  <polyline points="2 15.5 12 8.5 22 15.5"/>
+  <line x1="12" y1="2" x2="12" y2="8.5"/>
+  
+</svg>
+
+        </a>
+      </li><li>
+        <a href='https://facebook.com/MunifTanjim' target='_blank' rel='noopener'>
+          <span class='screen-reader'>Open Facebook account in new tab</span>
+          <svg class='icon' viewbox='0 0 24 24' stroke-linecap='round' stroke-linejoin='round' stroke-width='2' aria-hidden='true'>
+  
+  <path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z"/>
+  
+</svg>
+
+        </a>
+      </li><li>
+        <a href='https://github.com/MunifTanjim/minimo' target='_blank' rel='noopener'>
+          <span class='screen-reader'>Open Github account in new tab</span>
+          <svg class='icon' viewbox='0 0 24 24' stroke-linecap='round' stroke-linejoin='round' stroke-width='2' aria-hidden='true'>
+  
+  <path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"/>
+  
+</svg>
+
+        </a>
+      </li><li>
+        <a href='https://instagram.com/instagram' target='_blank' rel='noopener'>
+          <span class='screen-reader'>Open Instagram account in new tab</span>
+          <svg class='icon' viewbox='0 0 24 24' stroke-linecap='round' stroke-linejoin='round' stroke-width='2' aria-hidden='true'>
+  
+  <rect x="2" y="2" width="20" height="20" rx="5" ry="5"/>
+  <path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"/>
+  <line x1="17.5" y1="6.5" x2="17.5" y2="6.5"/>
+  
+</svg>
+
+        </a>
+      </li><li>
+        <a href='https://twitter.com/MunifTanjim' target='_blank' rel='noopener'>
+          <span class='screen-reader'>Open Twitter account in new tab</span>
+          <svg class='icon' viewbox='0 0 24 24' stroke-linecap='round' stroke-linejoin='round' stroke-width='2' aria-hidden='true'>
+  
+  <path d="M23 3a10.9 10.9 0 0 1-3.14 1.53 4.48 4.48 0 0 0-7.86 3v1A10.66 10.66 0 0 1 3 4s-4 9 5 13a11.64 11.64 0 0 1-7 2c9 5 20 0 20-11.5a4.5 4.5 0 0 0-.08-.83A7.72 7.72 0 0 0 23 3z"/>
+  
+</svg>
+
+        </a>
+      </li></ul>
+  </nav>
+</div>
+
+        <div class='copyright'>
+          <p>Gregory Vitz</p>
+
+        </div>
       </div>
+    </footer>
+
   </div>
-  <script src="https://gmvitz.github.io/js/jquery.min.js"></script>
-<script src="https://gmvitz.github.io/js/bootstrap.min.js"></script>
-<script src="https://gmvitz.github.io/js/jquery.cookie.js"> </script>
-<script src="https://gmvitz.github.io/js/ekko-lightbox.js"></script>
-<script src="https://gmvitz.github.io/js/jquery.scrollTo.min.js"></script>
-<script src="https://gmvitz.github.io/js/masonry.pkgd.min.js"></script>
-<script src="https://gmvitz.github.io/js/imagesloaded.pkgd.min.js"></script>
-<script src="https://gmvitz.github.io/js/owl.carousel.min.js"></script>
-<script src="https://gmvitz.github.io/js/front.js"></script>
+
+  <script src='/js/main.af838dd5.js'></script>
+  
+    <script src='/js/custom.js'></script>
+  
 
 </body>
+
 </html>
+
