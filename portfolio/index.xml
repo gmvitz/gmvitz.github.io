@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Portfolios on Creative portfolio</title>
+    <title>Portfolios on The Blog of Gregory Vitz</title>
     <link>https://gmvitz.github.io/portfolio/</link>
-    <description>Recent content in Portfolios on Creative portfolio</description>
+    <description>Recent content in Portfolios on The Blog of Gregory Vitz</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <copyright>&amp;copy;2016 Your name or company</copyright>
+    <copyright>&amp;copy;2017 Gregory Vitz</copyright>
     <lastBuildDate>Sat, 05 Nov 2016 19:41:01 +0530</lastBuildDate>
     
 	<atom:link href="https://gmvitz.github.io/portfolio/index.xml" rel="self" type="application/rss+xml" />

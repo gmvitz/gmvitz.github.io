@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>R Markdown on Creative portfolio</title>
+    <title>R Markdown on The Blog of Gregory Vitz</title>
     <link>https://gmvitz.github.io/tags/r-markdown/</link>
-    <description>Recent content in R Markdown on Creative portfolio</description>
+    <description>Recent content in R Markdown on The Blog of Gregory Vitz</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <copyright>&amp;copy;2016 Your name or company</copyright>
+    <copyright>&amp;copy;2017 Gregory Vitz</copyright>
     <lastBuildDate>Thu, 23 Jul 2015 21:13:14 -0500</lastBuildDate>
     
 	<atom:link href="https://gmvitz.github.io/tags/r-markdown/index.xml" rel="self" type="application/rss+xml" />
